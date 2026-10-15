@@ -81,4 +81,5 @@ Random seeds, training budgets, scenario settings, dependency versions, and eval
 
 ## Citation
 
-See `CITATION.cff` for the repository citation metadata. Add the final public repository URL and release version when publishing.
+See `CITATION.cff` for the repository citation metadata. Repository: https://github.com/empowered-aerial/LunarWing
+Current artifact version: 1.0.0. This version identifies the initial packaged research artifact; independent reproduction has not yet been verified.
