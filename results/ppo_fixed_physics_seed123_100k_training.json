@@ -1,0 +1,27 @@
+{
+  "model": "C:\\Users\\jasim\\Downloads\\Research Paper\\Research Work\\LunarWing\\models\\ppo_fixed_physics_seed123_100k.zip",
+  "condition": "fixed",
+  "training_seed": 123,
+  "requested_timesteps": 100000,
+  "actual_timesteps": 100352,
+  "algorithm": "PPO",
+  "environment": {
+    "id": "LunarLander-v3",
+    "gravity": -10.0,
+    "enable_wind": false
+  },
+  "ppo": {
+    "learning_rate": 0.0003,
+    "n_steps": 1024,
+    "batch_size": 64,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "ent_coef": 0.0,
+    "device": "cpu"
+  },
+  "gymnasium_version": "1.4.0",
+  "stable_baselines3_version": "2.9.0",
+  "numpy_version": "2.5.4",
+  "torch_version": "2.14.1+cpu",
+  "completed_at_utc": "2026-10-14T18:38:10.899105+00:00"
+}

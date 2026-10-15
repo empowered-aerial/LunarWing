@@ -1,0 +1,24 @@
+{
+  "environment": "LunarLander-v3",
+  "algorithm": "PPO",
+  "training_seed": 42,
+  "evaluation_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "total_timesteps": 100000,
+  "mean_reward": -40.669634975000136,
+  "std_reward": 99.09270608423112,
+  "mean_episode_length": 584.6,
+  "episodes_reward_ge_200": 0,
+  "evaluation_episodes": 10,
+  "success_threshold_is_proxy": true
+}

@@ -1,0 +1,231 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261015183654
+Username: DESKTOP-A8R4RCK\jasim
+RunAs User: DESKTOP-A8R4RCK\jasim
+Configuration Name: 
+Machine: DESKTOP-A8R4RCK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\jasim\AppData\Local\Programs\Microsoft VS Code\7baac39ec3\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 6468
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\jasim\Downloads\Research Paper\Research Work\LunarWing\results\phase05_audit_output.txt
+
+========== 1. REPOSITORY LOCATION ==========
+
+
+
+
+
+
+Path
+----
+C:\Users\jasim\Downloads\Research Paper\Research Work\LunarWing
+
+========== 2. GIT STATUS ==========
+
+========== 3. PYTHON ENVIRONMENT ==========
+
+========== 4. KEY DEPENDENCY VERSIONS ==========
+
+
+========== 5. REPOSITORY FILE INVENTORY ==========
+
+
+
+Path                                                                      SizeKB
+----                                                                      ------
+experiments\actor_critic_demo.py                                            8.32
+experiments\analyze_failure_taxonomy.py                                     9.64
+experiments\audit_trajectory_data.py                                        3.16
+experiments\baseline.py                                                     2.83
+experiments\continue_baseline.py                                            2.68
+experiments\evaluate_generalization.py                                      8.95
+experiments\evaluate_generalization_before_label_correction.py              8.54
+experiments\evaluate_generalization_before_multiseed.py                     8.55
+experiments\final_multiseed_statistical_analysis.py                        11.29
+experiments\final_statistical_analysis.py                                    3.7
+experiments\pilot_randomized.py                                             2.18
+experiments\randomized_env.py                                               1.67
+experiments\repair_generalization_results.py                                3.27
+experiments\test_randomized_env.py                                           1.9
+experiments\train_multi_seed.py                                             4.29
+experiments\train_randomized.py                                             2.14
+models\phase04_actor_critic.pt                                              75.5
+models\ppo_fixed_physics.zip                                              145.61
+models\ppo_fixed_physics_300k.zip                                         145.66
+models\ppo_fixed_physics_seed1001_100k.zip                                 145.6
+models\ppo_fixed_physics_seed123_100k.zip                                  145.6
+models\ppo_fixed_physics_seed2026_100k.zip                                145.61
+models\ppo_fixed_physics_seed7_100k.zip                                   145.61
+models\ppo_randomized_100k.zip                                            145.58
+models\ppo_randomized_physics_seed1001_100k.zip                            145.6
+models\ppo_randomized_physics_seed123_100k.zip                            145.56
+models\ppo_randomized_physics_seed2026_100k.zip                           145.62
+models\ppo_randomized_physics_seed7_100k.zip                               145.6
+models\ppo_randomized_pilot_5000.zip                                      143.84
+results\EXPERIMENT_RECORD.md                                                8.05
+results\EXPERIMENT_RECORD_before_phase02_append.md                          5.61
+results\generalization_by_scenario.csv                                      3.93
+results\generalization_by_scenario_before_label_correction.csv               3.9
+results\generalization_by_scenario_before_landing_metrics.csv               3.27
+results\generalization_by_scenario_before_termination_fix.csv               3.89
+results\generalization_evaluation.csv                                       99.3
+results\generalization_evaluation_before_label_correction.csv              98.95
+results\generalization_evaluation_before_landing_metrics.csv               36.06
+results\generalization_evaluation_before_termination_fix.csv              100.21
+results\generalization_evaluation_before_termination_fix_v2.csv             99.3
+results\generalization_multiseed_by_scenario.csv                            7.88
+results\generalization_multiseed_by_scenario_validated.csv                  5.39
+results\generalization_multiseed_evaluation.csv                           202.24
+results\generalization_multiseed_evaluation_before_termination_fix_v2.csv 151.93
+results\generalization_multiseed_model_summary_validated.csv                0.49
+results\generalization_multiseed_summary.json                              35.66
+results\generalization_multiseed_summary_validated.json                    18.05
+results\generalization_paired_reward_differences.csv                       148.2
+results\generalization_summary.json                                        18.77
+results\generalization_summary_before_label_correction.json                18.73
+results\generalization_summary_before_landing_metrics.json                 12.59
+results\generalization_summary_before_termination_fix.json                 18.73
+results\phase02_condition_summary.csv                                       0.37
+results\phase02_model_summary.csv                                           0.77
+results\phase02_paired_seed_comparison.csv                                  0.65
+results\phase02_scenario_summary.csv                                        1.62
+results\phase02_statistical_summary.json                                     1.7
+results\phase03_failure_taxonomy.csv                                        2.73
+results\phase03_failure_taxonomy.md                                         2.03
+results\phase05_audit_output.txt                                            1.24
+results\phase05_pip_freeze.txt                                                 0
+results\PHASE_02_STATISTICAL_RECORD.md                                      2.37
+results\ppo_fixed_physics.csv                                               0.38
+results\ppo_fixed_physics_300k.csv                                          0.38
+results\ppo_fixed_physics_300k_summary.json                                 0.39
+results\ppo_fixed_physics_seed1001_100k_training.json                       0.74
+results\ppo_fixed_physics_seed123_100k_training.json                        0.73
+results\ppo_fixed_physics_seed2026_100k_training.json                       0.74
+results\ppo_fixed_physics_seed7_100k_training.json                          0.73
+results\ppo_fixed_physics_summary.json                                      0.44
+results\ppo_randomized_100k_training.json                                   0.46
+results\ppo_randomized_physics_seed1001_100k_training.json                  0.91
+results\ppo_randomized_physics_seed123_100k_training.json                    0.9
+results\ppo_randomized_physics_seed2026_100k_training.json                  0.91
+results\ppo_randomized_physics_seed7_100k_training.json                      0.9
+results\final_figures\model_mean_rewards.png                               99.55
+results\final_figures\paired_reward_differences.png                        78.57
+results\final_figures\scenario_performance.png                            151.27
+results\final_tables\model_summary.csv                                      0.49
+results\final_tables\paired_reward_confidence_intervals.csv                 0.23
+results\final_tables\paired_reward_differences.csv                        148.16
+results\final_tables\scenario_reward_differences.csv                        0.66
+results\final_tables\scenario_summary.csv                                   5.39
+results\phase04_actor_critic\PHASE04_RECORD.md                              2.53
+results\phase04_actor_critic\summary.json                                   1.56
+results\phase04_actor_critic\training_curves.png                          307.74
+results\phase04_actor_critic\training_log.csv                              11.25
+
+
+
+========== 6. TOP-LEVEL DIRECTORIES ==========
+
+
+Name
+----
+.venv
+experiments
+logs
+models
+results
+src
+
+========== 7. RESULTS FILE SUMMARY ==========
+FILE: results\EXPERIMENT_RECORD.md | 8.05 KB
+FILE: results\EXPERIMENT_RECORD_before_phase02_append.md | 5.61 KB
+CSV: results\generalization_by_scenario.csv | Data rows: 40 | Columns: model, scenario, mean_reward, std_reward, mean_episode_length, episodes_reward_ge_200, landing_successes, crashes, time_limits, other_terminations, evaluation_episodes
+CSV: results\generalization_by_scenario_before_label_correction.csv | Data rows: 40 | Columns: model, scenario, mean_reward, std_reward, mean_episode_length, episodes_reward_ge_200, landing_successes, crashes, time_limits, other_terminations, evaluation_episodes
+CSV: results\generalization_by_scenario_before_landing_metrics.csv | Data rows: 40 | Columns: model, scenario, mean_reward, std_reward, episodes_reward_ge_200, evaluation_episodes
+CSV: results\generalization_by_scenario_before_termination_fix.csv | Data rows: 40 | Columns: model, scenario, mean_reward, std_reward, mean_episode_length, episodes_reward_ge_200, landing_successes, crashes, time_limits, other_terminations, evaluation_episodes
+CSV: results\generalization_evaluation.csv | Data rows: 400 | Columns: model, seed, scenario, gravity, enable_wind, wind_power, turbulence_power, reward, episode_length, reward_ge_200, terminated, truncated, termination_reason, landing_success, left_leg_contact, right_leg_contact, final_horizontal_position, final_vertical_position, final_horizontal_velocity, final_vertical_velocity, final_angle, final_angular_velocity
+CSV: results\generalization_evaluation_before_label_correction.csv | Data rows: 400 | Columns: model, seed, scenario, gravity, enable_wind, wind_power, turbulence_power, reward, episode_length, reward_ge_200, terminated, truncated, termination_reason, landing_success, left_leg_contact, right_leg_contact, final_horizontal_position, final_vertical_position, final_horizontal_velocity, final_vertical_velocity, final_angle, final_angular_velocity
+CSV: results\generalization_evaluation_before_landing_metrics.csv | Data rows: 400 | Columns: model, seed, scenario, gravity, enable_wind, wind_power, turbulence_power, reward, episode_length, reward_ge_200
+CSV: results\generalization_evaluation_before_termination_fix.csv | Data rows: 400 | Columns: model, seed, scenario, gravity, enable_wind, wind_power, turbulence_power, reward, episode_length, reward_ge_200, terminated, truncated, termination_reason, landing_success, left_leg_contact, right_leg_contact, final_horizontal_position, final_vertical_position, final_horizontal_velocity, final_vertical_velocity, final_angle, final_angular_velocity
+CSV: results\generalization_evaluation_before_termination_fix_v2.csv | Data rows: 400 | Columns: model, seed, scenario, gravity, enable_wind, wind_power, turbulence_power, reward, episode_length, reward_ge_200, terminated, truncated, termination_reason, landing_success, left_leg_contact, right_leg_contact, final_horizontal_position, final_vertical_position, final_horizontal_velocity, final_vertical_velocity, final_angle, final_angular_velocity
+CSV: results\generalization_multiseed_by_scenario.csv | Data rows: 80 | Columns: model, scenario, mean_reward, std_reward, mean_episode_length, episodes_reward_ge_200, landing_successes, crashes, time_limits, other_terminations, evaluation_episodes
+CSV: results\generalization_multiseed_by_scenario_validated.csv | Data rows: 60 | Columns: model, scenario, episodes, mean_reward, reward_sd, landing_successes, mean_length
+CSV: results\generalization_multiseed_evaluation.csv | Data rows: 800 | Columns: model, seed, scenario, gravity, enable_wind, wind_power, turbulence_power, reward, episode_length, reward_ge_200, terminated, truncated, termination_reason, landing_success, left_leg_contact, right_leg_contact, final_horizontal_position, final_vertical_position, final_horizontal_velocity, final_vertical_velocity, final_angle, final_angular_velocity
+CSV: results\generalization_multiseed_evaluation_before_termination_fix_v2.csv | Data rows: 600 | Columns: model, seed, scenario, gravity, enable_wind, wind_power, turbulence_power, reward, episode_length, reward_ge_200, terminated, truncated, termination_reason, landing_success, left_leg_contact, right_leg_contact, final_horizontal_position, final_vertical_position, final_horizontal_velocity, final_vertical_velocity, final_angle, final_angular_velocity
+CSV: results\generalization_multiseed_model_summary_validated.csv | Data rows: 6 | Columns: model, episodes, mean_reward, reward_sd, landing_successes, time_limits, mean_length
+FILE: results\generalization_multiseed_summary.json | 35.66 KB
+FILE: results\generalization_multiseed_summary_validated.json | 18.05 KB
+CSV: results\generalization_paired_reward_differences.csv | Data rows: 300 | Columns: model_fixed, seed, scenario, gravity_fixed, enable_wind_fixed, wind_power_fixed, turbulence_power_fixed, reward_fixed, episode_length_fixed, reward_ge_200_fixed, terminated_fixed, truncated_fixed, termination_reason_fixed, landing_success_fixed, left_leg_contact_fixed, right_leg_contact_fixed, final_horizontal_position_fixed, final_vertical_position_fixed, final_horizontal_velocity_fixed, final_vertical_velocity_fixed, final_angle_fixed, final_angular_velocity_fixed, model_randomized, gravity_randomized, enable_wind_randomized, wind_power_randomized, turbulence_power_randomized, reward_randomized, episode_length_randomized, reward_ge_200_randomized, terminated_randomized, truncated_randomized, termination_reason_randomized, landing_success_randomized, left_leg_contact_randomized, right_leg_contact_randomized, final_horizontal_position_randomized, final_vertical_position_randomized, final_horizontal_velocity_randomized, final_vertical_velocity_randomized, final_angle_randomized, final_angular_velocity_randomized, training_seed, reward_difference, landing_difference
+FILE: results\generalization_summary.json | 18.77 KB
+FILE: results\generalization_summary_before_label_correction.json | 18.73 KB
+FILE: results\generalization_summary_before_landing_metrics.json | 12.59 KB
+FILE: results\generalization_summary_before_termination_fix.json | 18.73 KB
+CSV: results\phase02_condition_summary.csv | Data rows: 2 | Columns: condition, training_runs, mean_of_run_mean_rewards, sd_across_training_runs, ci95_low_t, ci95_high_t, mean_landing_successes_per_100_episodes, total_landing_successes, total_evaluation_episodes
+CSV: results\phase02_model_summary.csv | Data rows: 8 | Columns: condition, training_seed, model, mean_reward, std_reward, mean_episode_length, reward_ge_200_count, landing_successes, evaluation_episodes
+CSV: results\phase02_paired_seed_comparison.csv | Data rows: 4 | Columns: training_seed, fixed, randomized, randomized_minus_fixed, mean_difference, sd_paired_difference, ci95_low_t, ci95_high_t
+CSV: results\phase02_scenario_summary.csv | Data rows: 20 | Columns: condition, scenario, mean_reward, sd_episode_reward, episodes, landing_successes, reward_ge_200_count
+FILE: results\phase02_statistical_summary.json | 1.7 KB
+CSV: results\phase03_failure_taxonomy.csv | Data rows: 38 | Columns: group_type, group, category, episodes, percentage, mean_reward, mean_episode_length, reward_ge_200_count, left_leg_contact_count, right_leg_contact_count, explicit_landing_success_count
+FILE: results\phase03_failure_taxonomy.md | 2.03 KB
+FILE: results\phase05_audit_output.txt | 1.24 KB
+FILE: results\phase05_pip_freeze.txt | 0 KB
+FILE: results\PHASE_02_STATISTICAL_RECORD.md | 2.37 KB
+CSV: results\ppo_fixed_physics.csv | Data rows: 10 | Columns: seed, reward, episode_length, reward_ge_200
+CSV: results\ppo_fixed_physics_300k.csv | Data rows: 10 | Columns: seed, reward, episode_length, reward_ge_200
+FILE: results\ppo_fixed_physics_300k_summary.json | 0.39 KB
+FILE: results\ppo_fixed_physics_seed1001_100k_training.json | 0.74 KB
+FILE: results\ppo_fixed_physics_seed123_100k_training.json | 0.73 KB
+FILE: results\ppo_fixed_physics_seed2026_100k_training.json | 0.74 KB
+FILE: results\ppo_fixed_physics_seed7_100k_training.json | 0.73 KB
+FILE: results\ppo_fixed_physics_summary.json | 0.44 KB
+FILE: results\ppo_randomized_100k_training.json | 0.46 KB
+FILE: results\ppo_randomized_physics_seed1001_100k_training.json | 0.91 KB
+FILE: results\ppo_randomized_physics_seed123_100k_training.json | 0.9 KB
+FILE: results\ppo_randomized_physics_seed2026_100k_training.json | 0.91 KB
+FILE: results\ppo_randomized_physics_seed7_100k_training.json | 0.9 KB
+FILE: results\final_figures\model_mean_rewards.png | 99.55 KB
+FILE: results\final_figures\paired_reward_differences.png | 78.57 KB
+FILE: results\final_figures\scenario_performance.png | 151.27 KB
+CSV: results\final_tables\model_summary.csv | Data rows: 6 | Columns: model, episodes, mean_reward, reward_sd, landing_successes, time_limits, mean_length
+CSV: results\final_tables\paired_reward_confidence_intervals.csv | Data rows: 3 | Columns: training_seed, mean_difference, ci_low, ci_high
+CSV: results\final_tables\paired_reward_differences.csv | Data rows: 300 | Columns: model_fixed, seed, scenario, gravity_fixed, enable_wind_fixed, wind_power_fixed, turbulence_power_fixed, reward_fixed, episode_length_fixed, reward_ge_200_fixed, terminated_fixed, truncated_fixed, termination_reason_fixed, landing_success_fixed, left_leg_contact_fixed, right_leg_contact_fixed, final_horizontal_position_fixed, final_vertical_position_fixed, final_horizontal_velocity_fixed, final_vertical_velocity_fixed, final_angle_fixed, final_angular_velocity_fixed, model_randomized, gravity_randomized, enable_wind_randomized, wind_power_randomized, turbulence_power_randomized, reward_randomized, episode_length_randomized, reward_ge_200_randomized, terminated_randomized, truncated_randomized, termination_reason_randomized, landing_success_randomized, left_leg_contact_randomized, right_leg_contact_randomized, final_horizontal_position_randomized, final_vertical_position_randomized, final_horizontal_velocity_randomized, final_vertical_velocity_randomized, final_angle_randomized, final_angular_velocity_randomized, training_seed, reward_difference, landing_difference
+CSV: results\final_tables\scenario_reward_differences.csv | Data rows: 10 | Columns: scenario, mean, std, count
+CSV: results\final_tables\scenario_summary.csv | Data rows: 60 | Columns: model, scenario, episodes, mean_reward, reward_sd, landing_successes, mean_length
+FILE: results\phase04_actor_critic\PHASE04_RECORD.md | 2.53 KB
+FILE: results\phase04_actor_critic\summary.json | 1.56 KB
+FILE: results\phase04_actor_critic\training_curves.png | 307.74 KB
+CSV: results\phase04_actor_critic\training_log.csv | Data rows: 100 | Columns: episode, reward, length, policy_loss, value_loss, entropy, total_loss, gradient_norm
+
+========== 8. EXISTING TESTS ==========
+Pytest exit code: 1
+
+========== 9. IMPORT / ENVIRONMENT SMOKE TEST ==========
+
+Smoke-test exit code: 1
+
+========== 10. README / LICENSE / DEPENDENCY FILES ==========
+README.md: False
+LICENSE: False
+.gitignore: False
+requirements.txt: False
+pyproject.toml: False
+environment.yml: False
+CITATION.cff: False
+CONTRIBUTING.md: False
+
+========== 11. PYTHON DEPENDENCY SNAPSHOT ==========
+Full pip freeze saved to results\phase05_pip_freeze.txt
+
+========== AUDIT COMPLETE ==========
+**********************
+Windows PowerShell transcript end
+End time: 20261015183702
+**********************

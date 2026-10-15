@@ -1,0 +1,45 @@
+{
+  "environment": "LunarLander-v3",
+  "algorithm": "Vanilla episodic actor-critic",
+  "episodes": 100,
+  "seed": 42,
+  "device": "cpu",
+  "initial_evaluation": {
+    "mean_reward": -291.59511475622753,
+    "std_reward": 143.26350971966437,
+    "episode_rewards": [
+      -188.62280032530992,
+      -447.36244900817513,
+      -522.6794154203831,
+      -126.34812593690798,
+      -325.3082172189311,
+      -220.6944242177627,
+      -189.94540904878951,
+      -439.31923902492423,
+      -80.82886415547836,
+      -374.84220320561377
+    ]
+  },
+  "final_evaluation": {
+    "mean_reward": -565.0176519471845,
+    "std_reward": 146.96469253577118,
+    "episode_rewards": [
+      -410.24903731615746,
+      -725.7828985285004,
+      -776.0748152159222,
+      -513.8516293473946,
+      -690.3729312508032,
+      -466.6747515203932,
+      -346.06656449539145,
+      -747.7051099127389,
+      -492.0507356752297,
+      -481.34804620931413
+    ]
+  },
+  "last_20_training_mean_reward": -212.4782968827545,
+  "mean_gradient_norm": 475.1469476509094,
+  "checkpoint": "C:\\Users\\jasim\\Downloads\\Research Paper\\Research Work\\LunarWing\\models\\phase04_actor_critic.pt",
+  "training_log": "C:\\Users\\jasim\\Downloads\\Research Paper\\Research Work\\LunarWing\\results\\phase04_actor_critic\\training_log.csv",
+  "plot": "C:\\Users\\jasim\\Downloads\\Research Paper\\Research Work\\LunarWing\\results\\phase04_actor_critic\\training_curves.png",
+  "note": "The critic uses Monte Carlo discounted returns. This is a standalone educational actor-critic, not PPO."
+}

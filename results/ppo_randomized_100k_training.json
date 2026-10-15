@@ -1,0 +1,16 @@
+{
+  "model": "C:\\Users\\jasim\\Downloads\\Research Paper\\Research Work\\LunarWing\\models\\ppo_randomized_100k.zip",
+  "requested_timesteps": 100000,
+  "actual_timesteps": 100352,
+  "training_seed": 42,
+  "environment": "RandomizedLunarLander",
+  "ppo": {
+    "learning_rate": 0.0003,
+    "n_steps": 1024,
+    "batch_size": 64,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "ent_coef": 0.0
+  },
+  "completed_at_utc": "2026-10-14T15:00:31.092906+00:00"
+}

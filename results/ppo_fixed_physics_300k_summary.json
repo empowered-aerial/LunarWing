@@ -1,0 +1,22 @@
+{
+  "environment": "LunarLander-v3",
+  "algorithm": "PPO",
+  "nominal_total_timesteps": 300000,
+  "additional_timesteps": 200000,
+  "evaluation_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "mean_reward": -57.294923019749,
+  "std_reward": 112.67642744734832,
+  "episodes_reward_ge_200": 0,
+  "evaluation_episodes": 10
+}

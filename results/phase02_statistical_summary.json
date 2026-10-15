@@ -1,0 +1,53 @@
+{
+  "analysis": "LunarWing Phase 02 multiseed statistical analysis",
+  "input": "generalization_multiseed_evaluation.csv",
+  "training_seeds": [
+    7,
+    123,
+    1001,
+    2026
+  ],
+  "conditions": [
+    "fixed",
+    "randomized"
+  ],
+  "scenarios": 10,
+  "evaluation_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "models": 8,
+  "total_episodes": 800,
+  "episodes_per_model": 100,
+  "primary_metric": "Mean episode reward, averaged within each trained model",
+  "comparison": "Paired randomized-minus-fixed differences across matched training seeds",
+  "paired_mean_reward_difference": -36.91481303633665,
+  "paired_sd_across_training_seed_differences": 58.32584271080352,
+  "paired_difference_ci95_t": [
+    -129.72424434684058,
+    55.89461827416727
+  ],
+  "paired_training_seed_differences": {
+    "7": -53.84658753642179,
+    "123": 49.62720994695101,
+    "1001": -69.88803839045126,
+    "2026": -73.5518361654246
+  },
+  "conclusion": "The 95% paired t interval includes zero; these four matched training-seed pairs do not establish a reliable difference between training conditions.",
+  "limitations": [
+    "Only four independent training runs per condition are available.",
+    "The t interval relies on assumptions that are difficult to assess with four paired runs.",
+    "Episodes within a trained model are not independent training replicates.",
+    "Results apply to the tested scenario set and evaluation seeds, not all possible physics.",
+    "Reward >= 200 is a proxy and is not interchangeable with the explicit landing_success measure.",
+    "Performance variability across training seeds is substantial."
+  ]
+}

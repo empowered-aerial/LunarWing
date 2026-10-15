@@ -1,0 +1,38 @@
+{
+  "model": "C:\\Users\\jasim\\Downloads\\Research Paper\\Research Work\\LunarWing\\models\\ppo_randomized_physics_seed2026_100k.zip",
+  "condition": "randomized",
+  "training_seed": 2026,
+  "requested_timesteps": 100000,
+  "actual_timesteps": 100352,
+  "algorithm": "PPO",
+  "environment": {
+    "id": "RandomizedLunarLander",
+    "gravity_range": [
+      -11.0,
+      -9.0
+    ],
+    "wind_power_range": [
+      0.0,
+      15.0
+    ],
+    "turbulence_power_range": [
+      0.0,
+      1.5
+    ],
+    "enable_wind": true
+  },
+  "ppo": {
+    "learning_rate": 0.0003,
+    "n_steps": 1024,
+    "batch_size": 64,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "ent_coef": 0.0,
+    "device": "cpu"
+  },
+  "gymnasium_version": "1.4.0",
+  "stable_baselines3_version": "2.9.0",
+  "numpy_version": "2.5.4",
+  "torch_version": "2.14.1+cpu",
+  "completed_at_utc": "2026-10-14T19:29:32.177627+00:00"
+}
